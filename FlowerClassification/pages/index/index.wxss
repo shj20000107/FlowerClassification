@@ -1,0 +1,31 @@
+/**index.wxss**/
+.imageset{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tips {
+  height: 50rpx;
+  color: red;
+  font-size:xx-small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonset{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.result-content {
+  margin-top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:fantasy ;
+  font-size:xx-large;
+}
+ 

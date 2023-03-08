@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="imageset">
+  <image mode="aspectFit" src="{{img}}" ></image>
+</view>
+
+<view class="tips">
+  <text wx:if="{{ishow}}">请先选择图片!</text>
+</view>
+
+<view class="buttonset">
+  <button bindtap="chooseimgTap" type="primary">选择图片</button>
+  <button bindtap="plantTap" class="btn">植物识别</button> 
+</view>
+
+<!-- 返回结果 -->
+<view class="result-content">{{content}}</view>
